@@ -14,3 +14,38 @@ body{
     font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
+.Page1{
+width: 1300px;
+height: 277px;
+background-color: rgb(196, 210, 223);
+border-radius: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+margin: 10px;
+
+}
+
+.Page2{
+width: 600px;
+height: 277px;
+margin: 10px;
+border-radius: 10px;
+display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(196, 210, 223);;
+
+}
+
+
+section{
+
+    display: flex;
+    padding: 10px;
+}
+
+.acoes{
+
+   margin-bottom: 40px;
+   border-radius: 5px;
+   margin-left: 200px;
+}
