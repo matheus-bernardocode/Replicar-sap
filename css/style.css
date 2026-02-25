@@ -22,7 +22,13 @@ border-radius: 10px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display: flex;
 margin: 10px;
-
+flex: 2;
+background-color: #c4d2df;
+border-radius: 12px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .Page2{
@@ -32,20 +38,70 @@ margin: 10px;
 border-radius: 10px;
 display: flex;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: rgb(196, 210, 223);;
-
+background-color: rgb(196, 210, 223);
+flex: 1;
+background-color: #c4d2df;
+border-radius: 12px;
+padding: 20px;
 }
-
 
 section{
 
     display: flex;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
 }
 
-.acoes{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f6fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-   margin-bottom: 40px;
-   border-radius: 5px;
-   margin-left: 200px;
+.roboimg{
+    width: 300px;
+}
+
+.cartaodeboasvindas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botao-fale{
+    width: 140px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2b5daa;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.botao-fale:hover{
+background-color: #1e4a8a;
+}
+.acoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.acoes button{
+    background-color: #2b5daa;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: left;
+    width: 260px;
+    transition: 0.1s;
+}
+
+.acoes button:hover{
+    background-color: #1e4a8a;
 }
