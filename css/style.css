@@ -15,3 +15,19 @@ body{
 }
 
 
+.Robô{
+width: 1300px;
+height: 277px;
+background-color: aqua;
+border-radius: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+
+}
+
+
+section{
+
+    display: flex;
+    padding: 10px;
+}
