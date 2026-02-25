@@ -8,13 +8,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px; 
-    background-color: rgb(207, 188, 17);
-    color: rgb(221, 208, 18);
+    padding: 1px; 
+    background-color: rgb(124, 124, 119);
+    color: rgb(17, 17, 12);
     font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 
-#links{
+#navButtons{
     display:flex;
 }
